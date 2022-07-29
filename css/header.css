@@ -1,0 +1,57 @@
+header{
+    min-height: 95px;
+    background-color: white;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #CCCCCC;
+
+}
+
+.logo{
+    padding: 23px 0;
+}
+
+.header_nav {
+    list-style: none;
+}
+
+.header_nav>li{
+    display: inline-block;
+
+}
+.header_nav_link{
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: black;
+    padding: 39px 55px 36px;
+}
+
+
+.button_log_in{
+    color: black;
+    padding: 14px 36px;
+    border: 1px solid #000000;
+    background-color: white;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 0.8rem;
+
+}
+
+.button_try_it_free{
+    background-color: #FF6336;
+    border: 1px solid #FF6336;
+    color: white;
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 14px 36px;
+
+}
+
+.list_item{
+    display: inline-block;
+}

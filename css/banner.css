@@ -1,0 +1,61 @@
+.banner{
+    background-color: white;
+    display: flex;
+}
+
+.banner_text{
+    justify-content: left;
+
+}
+h1{
+    font: 600 3.25rem "Graphik LC TT";
+    color: black;
+    max-width: 552px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    margin-top: 130px;
+}
+
+.banner_text_info{
+    font: 400 1.25rem "Graphik LC TT";
+    color: black;
+    max-width: 471px;
+    margin-bottom: 50px;
+}
+
+.banner_button_red{
+    background-color: #FF6336;
+    color: white;
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-right: 10px;
+    padding: 20px 40px;
+    text-decoration: none;
+    border: 1px solid #FF6336;
+}
+
+.banner_button_white{
+    background-color: white;
+    border: 1px solid #000000;
+    padding: 20px 29px;
+    font-weight: 600;
+    font-size: 0.8rem;
+
+    color: black;
+}
+
+.banner_comment{
+    font-weight: 400;
+    font-size: 0.75rem;
+    max-width: 369px;
+    margin-bottom: 172px;
+    margin-top: 25px;
+}
+
+.img>img{
+    justify-content: right;
+    max-width: 759px;
+    width: 100%;
+    margin: 150px 0;
+    display: block;
+}

@@ -1,0 +1,22 @@
+.companies{
+    background-color: #FF9C7D;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 90px;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 100px auto 80px;
+}
+
+.companies_items>img{
+    display: inline-block;
+    margin: 0 50px 120px 50px;
+}
+
+.companies_items{
+    margin: 0 auto;
+}

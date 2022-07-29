@@ -1,0 +1,35 @@
+.container_main{
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1;
+    justify-content: space-between;
+}
+
+.container_main>*{
+    margin-bottom: 250px;
+}
+
+.container_main_card{
+    max-width: 632px;
+    width: 100%;
+}
+
+.container_main_card h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 151px 165px 30px 0 ;
+    max-width: 493px;
+}
+
+.container_main_card p{
+    font-weight: 400;
+    max-width: 491px;
+    margin-bottom: 30px;
+}
+
+.container_main_card a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}

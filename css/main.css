@@ -1,0 +1,24 @@
+@import "header.css";
+@import "normalize.css";
+@import "banner.css";
+@import "Companies.css";
+@import "container_main.css";
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+body{
+    margin: 0;
+    font: normal 20px "Graphik LC TT";
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.list_no_style{
+    list-style: none;
+}
