@@ -1,11 +1,13 @@
 .container_main{
-    background-color: #ffffff;
+
     display: flex;
     flex-wrap: wrap;
     flex: 1 1;
     justify-content: space-between;
 }
-
+.container_main_background{
+    background-color: #ffffff;
+}
 .container_main>*{
     margin-bottom: 250px;
 }

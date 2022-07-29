@@ -7,8 +7,12 @@ header{
 .header{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #CCCCCC;
 
+
+}
+.header_background{
+    border-bottom: 1px solid #CCCCCC;
+    background-color: white;
 }
 
 .logo{

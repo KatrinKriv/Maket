@@ -1,8 +1,14 @@
 .companies{
-    background-color: #FF9C7D;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+
+}
+.companies_background{
+    background-color: #FF9C7D;
+}
+
+body .companies{
     margin-bottom: 90px;
 }
 

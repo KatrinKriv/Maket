@@ -3,6 +3,11 @@
 @import "banner.css";
 @import "Companies.css";
 @import "container_main.css";
+@import "icons.css";
+@import "spetialisations.css";
+*{
+    box-sizing: border-box;
+}
 .container{
     max-width: 1440px;
     margin: 0 auto;
