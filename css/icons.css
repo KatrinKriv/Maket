@@ -24,11 +24,13 @@
 
 }
 
-h3{
+.container_icons_small h3{
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 20px;
     text-align: center;
+    line-height: 1.25rem;
+
 }
 
 .container_icons_small p{

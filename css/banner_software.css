@@ -1,0 +1,33 @@
+.banner_software{
+    background-color: #DABC98;
+}
+.banner_software_items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cake_img{
+    margin-top: 90px;
+    margin-bottom: 88px;
+}
+h4{
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 50px;
+    max-width: 461px;
+    margin-bottom: 115px;
+}
+
+.border_right{
+    border-right: 1px solid black;
+    max-height: 168px;
+    margin: auto 0;
+}
+
+.banner_software_symbols{
+    margin-top: 110px;
+}
+
+.ttu{
+    text-transform: uppercase;
+}

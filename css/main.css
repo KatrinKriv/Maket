@@ -5,13 +5,16 @@
 @import "container_main.css";
 @import "icons.css";
 @import "spetialisations.css";
+@import "revolut_info.css";
+@import "banner_software.css";
+@import "banner_worktools.css";
+@import "banner_localize.css";
 *{
     box-sizing: border-box;
 }
 .container{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 50px;
 }
 
 body{

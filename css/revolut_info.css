@@ -1,0 +1,30 @@
+.container_revolut{
+    background-color: #C9E8F2;
+
+
+}
+
+.container_revolut_info{
+    display: flex;
+    justify-content: space-around;
+}
+.container_revolut_info_text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 63px;
+    margin-bottom: 23px;
+    text-align: left;
+}
+container_revolut_info p{
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-bottom: 13px;
+    text-align: left;
+}
+
+.container_revolut_img{
+    display: block;
+    margin-top: 53px;
+    margin-bottom: 105px;
+}

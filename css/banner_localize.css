@@ -1,0 +1,41 @@
+.banner_localization{
+    background-color: #FF9C7D;
+}
+.banner_localization_elements{
+    margin-bottom: 161px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_localization_items h5{
+    font-size: 3.25rem;
+    font-weight: 600;
+    line-height: 75px;
+    text-align: center;
+    max-width: 640px;
+    margin: 119px auto 29px;
+}
+.banner_localization_elements p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 54px;
+    text-align: center;
+}
+
+.banner_localization_button {
+    background-color: black;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 22px 40px;
+    border: 1px solid black;
+    margin-bottom: 161px;
+}
+.banner_localization_button_orientation {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
