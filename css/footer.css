@@ -68,7 +68,7 @@ h6{
 
 .footer_contact_info{
     display: flex;
-    flex: 1 2 700px 1;
+    justify-content: space-between;
 
 }
 
@@ -81,4 +81,23 @@ h6{
     font-weight: 400;
     max-width: 301px;
     align-self: start;
+}
+
+.footer_contact_info_start{
+    display: flex;
+    gap: 14px;
+}
+
+.footer_contact_info_start p{
+    margin-top: 52px;
+}
+
+.footer_contact_info_start img{
+    display: block;
+    max-width: 89px;
+    max-height: 21px;
+}
+.footer_contact_info_end{
+    margin-top: 47px;
+    margin-bottom: 48px;
 }

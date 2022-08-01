@@ -11,6 +11,7 @@
 }
 .specialisation_cards{
     display: flex;
+    justify-content: center;
     gap: 31px;
 }
 

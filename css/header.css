@@ -16,7 +16,7 @@ header{
 }
 
 .logo{
-    padding: 23px 0;
+    padding: 48px 0;
 }
 
 .header_nav {
@@ -43,7 +43,7 @@ header{
     margin-right: 10px;
     font-weight: 600;
     font-size: 0.8rem;
-
+    margin-top: 24px;
 }
 
 .button_try_it_free{
@@ -52,7 +52,8 @@ header{
     color: white;
     font-weight: 600;
     font-size: 0.8rem;
-    padding: 14px 36px;
+    padding: 14px 26px;
+    margin-top: 24px;
 
 }
 
