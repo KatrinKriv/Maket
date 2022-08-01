@@ -1,0 +1,84 @@
+.footer_background{
+    background-color: #EEEEEE;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 1px solid black;
+}
+
+h6{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+.cyclists{
+    border: 1px solid black;
+    margin-bottom: 32px;
+    display: block;
+}
+
+.footer_case_studies_text{
+    max-width: 290px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.footer_case_studies_link{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 95px;
+    color: black;
+}
+
+.footer_case_studies{
+
+    margin-bottom: 52px;
+}
+
+.footer_link{
+    color: black;
+}
+
+.footer_link h3{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 80px 0 21px 0;
+    text-align: left;
+
+}
+
+.footer_link ul{
+    list-style: none;
+    margin-left: -38px;
+}
+
+.footer_link a{
+    color: black;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.footer_contact_info{
+    display: flex;
+    flex: 1 2 700px 1;
+
+}
+
+.footer_contact_info img{
+    margin-top: 52px;
+}
+
+.footer_contact_info p{
+    font-size: 0.6rem;
+    font-weight: 400;
+    max-width: 301px;
+    align-self: start;
+}

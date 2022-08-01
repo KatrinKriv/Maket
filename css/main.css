@@ -9,6 +9,7 @@
 @import "banner_software.css";
 @import "banner_worktools.css";
 @import "banner_localize.css";
+@import "footer.css";
 *{
     box-sizing: border-box;
 }
