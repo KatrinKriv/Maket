@@ -8,7 +8,7 @@
 
 }
 h1{
-    font: 600 3.25rem "Graphik LC TT";
+    font: 600 3.25rem "Graphik LCG";
     color: black;
     max-width: 552px;
     overflow: hidden;
@@ -17,7 +17,7 @@ h1{
 }
 
 .banner_text_info{
-    font: 400 1.25rem "Graphik LC TT";
+    font: 400 1.25rem "Graphik LCG";
     color: black;
     max-width: 471px;
     margin-bottom: 50px;

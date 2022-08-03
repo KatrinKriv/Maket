@@ -10,9 +10,15 @@
 @import "banner_worktools.css";
 @import "banner_localize.css";
 @import "footer.css";
+@import "fonts.css";
 *{
     box-sizing: border-box;
 }
+
+html{
+    font-family: "Graphik LCG";
+}
+
 .container{
     max-width: 1440px;
     margin: 0 auto;
@@ -20,7 +26,7 @@
 
 body{
     margin: 0;
-    font: normal 20px "Graphik LC TT";
+    font: normal 20px "Graphik LCG";
     color: black;
 }
 
