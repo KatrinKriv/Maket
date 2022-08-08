@@ -351,3 +351,27 @@
     }
 }
 
+@media (max-width: 375px) {
+    body .list_lokation{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .specialisation_cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .specialisation_cards img{
+        margin: 0 auto;
+        display: block;
+    }
+
+    .specialisation_cards h3{
+        text-align: center;
+    }
+
+}
