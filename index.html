@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="fonts/GraphikLCG-Semibold.woff2">
     <link rel="preload" href="fonts/GraphikLCG-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="GraphikLCG-Semibold.woff2" as="font" type="font/woff2" crossorigin>
-
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js" type="text/javascript"></script>
+    <script src="main.js" type="text/javascript"></script>
 
 </head>
 <body>
@@ -20,13 +24,20 @@
             <div class="container header">
                 <div class="logo"><a class="hvr-hang" href="#"><img src="img/Group.png" alt="logo"></a></div>
                 <nav>
-                    <ul class="header_nav">
-                        <li><a class="header_nav_link hvr-hang" href="">Product</a></li>
-                        <li><a class="header_nav_link hvr-hang" href="">Features</a></li>
-                        <li><a class="header_nav_link hvr-hang" href="">Pricing</a></li>
-                        <li><a class="header_nav_link hvr-hang" href="">Case studies</a></li>
-                        <li><a class="header_nav_link hvr-hang" href="">Resources</a></li>
+                    <div class="burger-menu">
+                        <input id="menu-toggle" type="checkbox" />
+                        <label class="menu-btn" for="menu-toggle">
+                            <span></span>
+                        </label>
+
+                    <ul class="header_nav menubox">
+                        <li><a class="header_nav_link hvr-hang menu-item" href="">Product</a></li>
+                        <li><a class="header_nav_link hvr-hang menu-item" href="">Features</a></li>
+                        <li><a class="header_nav_link hvr-hang menu-item" href="">Pricing</a></li>
+                        <li><a class="header_nav_link hvr-hang menu-item" href="">Case studies</a></li>
+                        <li><a class="header_nav_link hvr-hang menu-item" href="">Resources</a></li>
                     </ul>
+                    </div>
                 </nav>
                 <div class="buttons">
                     <ul class="list_no_style">
@@ -40,66 +51,68 @@
 
     <body>
         <div class="banner_background">
-            <div class="container banner">
-                <div class="banner_text">
+            <div class="container banner col-xs-12 ">
+                <div class="banner_text ">
                     <h1>Accelerate localization from code to delivery</h1>
                     <p class="banner_text_info">A localization and translation management platform for agile teams. Embrace automation, workflow transparency, and fast project delivery.</p>
-                    <a class="banner_button_red hvr-hang" href="#">Try it free</a>
-                    <a class="banner_button_white hvr-hang" href="#">Book a demo</a>
+                    <div class="banner_buttons">
+                        <a class="banner_button_red hvr-hang" href="#">Try it free</a>
+                        <a class="banner_button_white hvr-hang" href="#">Book a demo</a>
+                    </div>
                     <p class="banner_comment">Try all features for 14 days · No credit card required</p>
                 </div>
-                <div class="img">
+                <div class="img ">
                     <img src="img/Foto1.png" alt="Foto1">
                 </div>
             </div>
         </div>
 
         <div class="companies_background">
-            <div class="container companies ">
+            <div class="container companies col-m-4 ">
                     <h2>The preferred localization tool of 1500+ companies</h2>
-                    <div class="companies_items">
-                        <img src="img/Specialized.png" alt="Specialized">
-                        <img src="img/Virgin.png" alt="Virgin">
-                        <img src="img/Tidal.png" alt="Tidal">
-                        <img src="img/Revolut.png" alt="Revolut">
-                        <img src="img/Yelp.png" alt="Yelp">
+                    <div class="companies_items ">
+                        <img class="" src="img/Specialized.png" alt="Specialized">
+                        <img class="" src="img/Virgin.png" alt="Virgin">
+                        <img class="" src="img/Tidal.png" alt="Tidal">
+                        <img class="" src="img/Revolut.png" alt="Revolut">
+                        <img class="" src="img/Yelp.png" alt="Yelp">
                     </div>
             </div>
         </div>
 
         <div class="container_main_background">
-            <div class="container container_main">
-                <div class="container_main_card">
+            <div class="container container_main ">
+                <div class="container_main_card container_main_card_text_order col_xs ">
                     <h2>Control the localization process</h2>
                     <p>Collaborate with your team in a single workspace. Add and assign <a class="underline hvr-hang" href="#">tasks</a>, track progress, and enjoy a seamless localization workflow where you know who is doing what and when.</p>
                     <a class="container_main_link hvr-hang" href="#">Start now</a>
                 </div>
-                <div class="container_main_card">
+                <div class="container_main_card container_main_card_order col_xs">
                     <img src="img/Project_app.png" alt="Project app">
                 </div>
 
-                <div class="container_main_card">
+                <div class="container_main_card container_main_card_order col_xs">
                     <img src="img/main_img_2.png" alt="labels">
                 </div>
-                <div class="container_main_card">
+                <div class="container_main_card container_main_card_text_order col_xs">
                     <h2>Shorten time to market</h2>
                     <p>Localize your product in parallel with the development cycle. Use the <a href="#" class="underline hvr-hang">Adobe XD</a>, <a href="#" class="underline hvr-hang">Figma</a>, and <a href="#" class="underline hvr-hang">Sketch</a> plugins to start working on translations as soon as the product design is ready. No more idle waiting.</p>
                     <a class="container_main_link hvr-hang" href="#">Start now</a>
                 </div>
 
-                <div class="container_main_card">
-                    <h2>Ensure quality</h2>
+                <div class="container_main_card container_main_card_text_order col_xs">
+                    <h2 class="container_main_card_header">Ensure quality</h2>
                     <p>Use built-in tools — e.g. <a href="#" class="underline hvr-hang">translation memory</a>, machine translation, and <a href="#" class="underline hvr-hang">QA checks</a> — to enhance the quality and cohesion of translations. Add product <a href="#" class="underline hvr-hang">screenshots</a> for context and use the <a href="#" class="underline hvr-hang">in-context editors</a> for instant previews.</p>
                     <a class=" container_main_link hvr-hang" href="#">Start now</a>
                 </div>
-                <div class="container_main_card">
+                <div class="container_main_card container_main_card_order col_xs">
                     <img src="img/Main_img_3.png" alt="Contact">
                 </div>
 
-                <div class="container_main_card">
+                <div class="container_main_card container_main_card_order col_xs">
                     <img src="img/main_img_4.png" alt="code">
                 </div>
-                <div class="container_main_card">
+                <div class="container_main_card container_main_card_text_order col_xs">
                     <h2>Less work for developers</h2>
                     <p>Eliminate the hassle of localization and let developers get back to their main tasks. Save hours with the powerful <a href="#" class="underline hvr-hang">API</a>, <a href="#" class="underline hvr-hang">CLI</a>, <a href="#" class="underline hvr-hang">mobile SDKs</a>, and integrations with  <a href="#" class="underline hvr-hang">GitHub</a>, <a href="#" class="underline hvr-hang">Bitbucket</a>, <a href="#" class="underline hvr-hang">JIRA</a>, and more.</p>
                     <a class="container_main_link hvr-hang" href="#">Start now</a>
@@ -199,28 +212,29 @@
                 <div class="border_right">
                     <h4>The most-loved translation management software</h4>
                 </div>
-                <div class="banner_software_symbols">
-                    <img src="img/symbol_1.png" alt="symbol_1">
-                    <div class="stars">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.97423 0L7.5708 7.31337H0L6.24891 11.9788L3.84548 19.4183L9.97423 14.7528L16.2231 19.4183L13.8197 11.9788L19.9485 7.31337H12.3777L9.97423 0Z" fill="black"/>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.97423 0L7.5708 7.31337H0L6.24891 11.9788L3.84548 19.4183L9.97423 14.7528L16.2231 19.4183L13.8197 11.9788L19.9485 7.31337H12.3777L9.97423 0Z" fill="black"/>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.97423 0L7.5708 7.31337H0L6.24891 11.9788L3.84548 19.4183L9.97423 14.7528L16.2231 19.4183L13.8197 11.9788L19.9485 7.31337H12.3777L9.97423 0Z" fill="black"/>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.97423 0L7.5708 7.31337H0L6.24891 11.9788L3.84548 19.4183L9.97423 14.7528L16.2231 19.4183L13.8197 11.9788L19.9485 7.31337H12.3777L9.97423 0Z" fill="black"/>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.97423 0L7.5708 7.31337H0L6.24891 11.9788L3.84548 19.4183L9.97423 14.7528L16.2231 19.4183L13.8197 11.9788L19.9485 7.31337H12.3777L9.97423 0Z" fill="black"/>
-                        </svg>
+                <div class="banner_software_symbols_lokation">
+                    <div class="banner_software_symbols">
+                        <img src="img/symbol_1.png" alt="symbol_1">
+                        <div class="stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.97423 0L7.5708 7.31337H0L6.24891 11.9788L3.84548 19.4183L9.97423 14.7528L16.2231 19.4183L13.8197 11.9788L19.9485 7.31337H12.3777L9.97423 0Z" fill="black"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.97423 0L7.5708 7.31337H0L6.24891 11.9788L3.84548 19.4183L9.97423 14.7528L16.2231 19.4183L13.8197 11.9788L19.9485 7.31337H12.3777L9.97423 0Z" fill="black"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.97423 0L7.5708 7.31337H0L6.24891 11.9788L3.84548 19.4183L9.97423 14.7528L16.2231 19.4183L13.8197 11.9788L19.9485 7.31337H12.3777L9.97423 0Z" fill="black"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.97423 0L7.5708 7.31337H0L6.24891 11.9788L3.84548 19.4183L9.97423 14.7528L16.2231 19.4183L13.8197 11.9788L19.9485 7.31337H12.3777L9.97423 0Z" fill="black"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.97423 0L7.5708 7.31337H0L6.24891 11.9788L3.84548 19.4183L9.97423 14.7528L16.2231 19.4183L13.8197 11.9788L19.9485 7.31337H12.3777L9.97423 0Z" fill="black"/>
+                            </svg>
+                        </div>
+                        <p class="ttu">USERS LOVE US</p>
                     </div>
-                    <p class="ttu">USERS LOVE US</p>
-                </div>
-                <div class="banner_software_symbols">
+                    <div class="banner_software_symbols">
                     <img src="img/symbol_2.png" alt="Capterra_logo">
                     <div class="stars">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -240,6 +254,7 @@
                         </svg>
                     </div>
                     <p class="ttu">HIGHEST RATED</p>
+                </div>
                 </div>
             </div>
         </div>
@@ -287,56 +302,58 @@
                 <p class="footer_case_studies_text">Riding towards global success with a 100% teammate enthusiasm</p>
                 <a class="footer_case_studies_link hvr-hang" href="#">Read more</a>
             </div>
-            <div class="footer_link">
-                <h3>Product</h3>
-                <ul>
-                    <li><a class="hvr-hang" href="#">For developers</a></li>
-                    <li><a class="hvr-hang" href="#">For managers</a></li>
-                    <li><a class="hvr-hang" href="#">For translators</a></li>
-                    <li><a class="hvr-hang" href="#">For designers</a></li>
-                    <li><a class="hvr-hang" href="#">Integrations</a></li>
-                    <li><a class="hvr-hang" href="#">Security</a></li>
-                    <li><a class="hvr-hang" href="#">Pricing</a></li>
-                    <li><a class="hvr-hang" href="#">Automations</a></li>
-                </ul>
-            </div>
+            <div class="footer_link_lokation">
+                <div class="footer_link">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a class="hvr-hang" href="#">For developers</a></li>
+                        <li><a class="hvr-hang" href="#">For managers</a></li>
+                        <li><a class="hvr-hang" href="#">For translators</a></li>
+                        <li><a class="hvr-hang" href="#">For designers</a></li>
+                        <li><a class="hvr-hang" href="#">Integrations</a></li>
+                        <li><a class="hvr-hang" href="#">Security</a></li>
+                        <li><a class="hvr-hang" href="#">Pricing</a></li>
+                        <li><a class="hvr-hang" href="#">Automations</a></li>
+                    </ul>
+                </div>
 
-            <div class="footer_link">
-                <h3>Support</h3>
-                <ul>
-                    <li><a class="hvr-hang" href="#">Contact</a></li>
-                    <li><a class="hvr-hang" href="#">Documentation</a></li>
-                    <li><a class="hvr-hang" href="#">Status</a></li>
-                    <li><a class="hvr-hang" href="#">Product Updates</a></li>
-                    <li><a class="hvr-hang" href="#"><span class="ttu">CLI</span> Tool</a></li>
-                    <li><a class="hvr-hang" href="#"><span class="ttu">API</span> Reference</a></li>
-                    <li><a class="hvr-hang" href="#">i<span class="ttu">OS</span> and Android <span class="ttu">SDK</span></a></li>
-                    <li><a class="hvr-hang" href="#">Supported File Formats</a></li>
-                </ul>
-            </div>
+                <div class="footer_link">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a class="hvr-hang" href="#">Contact</a></li>
+                        <li><a class="hvr-hang" href="#">Documentation</a></li>
+                        <li><a class="hvr-hang" href="#">Status</a></li>
+                        <li><a class="hvr-hang" href="#">Product Updates</a></li>
+                        <li><a class="hvr-hang" href="#"><span class="ttu">CLI</span> Tool</a></li>
+                        <li><a class="hvr-hang" href="#"><span class="ttu">API</span> Reference</a></li>
+                        <li><a class="hvr-hang" href="#">i<span class="ttu">OS</span> and Android <span class="ttu">SDK</span></a></li>
+                        <li><a class="hvr-hang" href="#">Supported File Formats</a></li>
+                    </ul>
+                </div>
 
-            <div class="footer_link">
-                <h3>Company</h3>
-                <ul>
-                    <li><a class="hvr-hang" href="#">About</a></li>
-                    <li><a class="hvr-hang" href="#">Blog</a></li>
-                    <li><a class="hvr-hang" href="#">Careers | We`re Hiring</a></li>
-                    <li><a class="hvr-hang" href="#">Case Studies</a></li>
-                    <li><a class="hvr-hang" href="#">Media Kit</a></li>
-                </ul>
-            </div>
+                <div class="footer_link">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a class="hvr-hang" href="#">About</a></li>
+                        <li><a class="hvr-hang" href="#">Blog</a></li>
+                        <li><a class="hvr-hang" href="#">Careers | We`re Hiring</a></li>
+                        <li><a class="hvr-hang" href="#">Case Studies</a></li>
+                        <li><a class="hvr-hang" href="#">Media Kit</a></li>
+                    </ul>
+                </div>
 
-            <div class="footer_link">
-                <h3>Legal</h3>
-                <ul>
-                    <li><a class="hvr-hang" href="#">Terms of Service</a></li>
-                    <li><a class="hvr-hang" href="#">Privacy Policy</a></li>
-                    <li><a class="hvr-hang" href="#">Cookie Policy</a></li>
-                    <li><a class="hvr-hang" href="#">Privacy Shield</a></li>
-                    <li><a class="hvr-hang" href="#"><span class="ttu">DPA</span></a></li>
-                    <li><a class="hvr-hang" href="#">List of Sub-processors</a></li>
-                    <li><a class="hvr-hang" href="#">Candidates Privacy Notice</a></li>
-                </ul>
+                <div class="footer_link">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a class="hvr-hang" href="#">Terms of Service</a></li>
+                        <li><a class="hvr-hang" href="#">Privacy Policy</a></li>
+                        <li><a class="hvr-hang" href="#">Cookie Policy</a></li>
+                        <li><a class="hvr-hang" href="#">Privacy Shield</a></li>
+                        <li><a class="hvr-hang" href="#"><span class="ttu">DPA</span></a></li>
+                        <li><a class="hvr-hang" href="#">List of Sub-processors</a></li>
+                        <li><a class="hvr-hang" href="#">Candidates Privacy Notice</a></li>
+                    </ul>
+                </div>
             </div>
 
 

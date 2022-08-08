@@ -31,3 +31,10 @@ h4{
 .ttu{
     text-transform: uppercase;
 }
+
+.banner_software_symbols_lokation{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 70px;
+}

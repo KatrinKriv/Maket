@@ -2,7 +2,7 @@
     background-color: white;
 }
 .banner_worktools_elements{
-    margin-bottom: 254px;
+    margin-bottom: 162px;
 }
 
 h5{
@@ -34,7 +34,6 @@ h5{
 
 }
 .banner_worktools_button_orientation {
-    height: 10em;
     display: flex;
     align-items: center;
     justify-content: center
