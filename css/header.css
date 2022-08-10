@@ -16,7 +16,7 @@ header{
 }
 
 .logo{
-    padding: 48px 0;
+    padding: 35px 0;
 }
 
 .header_nav {
@@ -59,4 +59,8 @@ header{
 
 .list_item{
     display: inline-block;
+}
+
+.buttons{
+    margin-top: 20px;
 }
