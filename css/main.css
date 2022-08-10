@@ -120,3 +120,8 @@ a{
 .underline{
     text-decoration: underline ;
 }
+
+
+body{
+    overflow-x: hidden;
+}
