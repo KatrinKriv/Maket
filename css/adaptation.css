@@ -351,7 +351,7 @@
     }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 566px) {
     body .list_lokation{
         display: flex;
         flex-direction: column;
