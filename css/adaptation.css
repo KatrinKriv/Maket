@@ -1,4 +1,4 @@
-@media (max-width: 1920px){
+@media (max-width: 7680px){
     .burger-menu input{
         visibility: hidden;
     }
@@ -351,15 +351,16 @@
     }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 376px) {
     body .list_lokation{
         display: flex;
         flex-direction: column;
         gap: 30px;
+        margin-right: 25px;
     }
 
-    .specialisation_cards{
-        display: flex;
+
+     .specialisation_cards{
         flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
@@ -373,5 +374,23 @@
     .specialisation_cards h3{
         text-align: center;
     }
+    .container_revolut_img{
+        max-width: 120px;
+    }
 
+    .cake_img{
+        max-width: 100px;
+    }
+
+    .border_right h4{
+        font-size: 0.85rem;
+    }
+
+    .banner_software_symbols .ttu{
+        font-size: 0.85rem;
+    }
+
+    .cyclists{
+        max-width: 120px;
+    }
 }
