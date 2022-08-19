@@ -2,6 +2,10 @@
     .burger-menu input{
         visibility: hidden;
     }
+    .border_right_lokation{
+        display: flex;
+        gap: 10px;
+    }
 }
 
 @media (max-width: 1280px){
@@ -122,37 +126,50 @@
     }
 }
 
-@media (max-width: 1280px){
-    .col_xs{
+@media (max-width: 1280px) {
+    .col_xs {
         width: 25%;
         flex-wrap: wrap;
         gap: 10px;
 
     }
 
-    .container_main_card_text_order{
+    .container_main_card_text_order {
         order: 0;
     }
 
-    .container_main_card_order{
+    .container_main_card_order {
         order: 1;
     }
-    .container_main *{
+
+    .container_main * {
         margin-bottom: 10px;
     }
 
-    .container_main_card img{
+    .container_main_card img {
         max-width: 320px;
         width: 100%;
         min-height: 320px;
     }
 
-    .banner_comment{
+    .banner_comment {
         margin-bottom: 10px;
     }
 
-    .img>img{
+    .img > img {
         margin-top: 0;
+    }
+
+    .buttons {
+        margin-right: 20px;
+    }
+
+    .logo{
+        margin-top: 5px;
+    }
+
+    .container_main_card{
+        padding-right: 10px;
     }
 }
 
@@ -209,6 +226,17 @@
         width: 100%;
     }
 
+    .footer_case_studies{
+        margin-right: 10px;
+    }
+
+    .footer{
+        justify-content: normal;
+    }
+    .footer_link_lokation{
+        gap: 50px;
+    }
+
 }
 
 @media (max-width: 1024px) {
@@ -220,9 +248,58 @@
         display: block;
     }
 
+   .container_main_card{
+       min-height: 465px;
+   }
+   .menu-btn{
+       margin-top: 38px;
+   }
+    .container_specialisations_small img{
+        margin: 0 auto;
+        display: block;
+    }
+    .container_specialisations_small h3{
+        text-align: center;
+    }
+    .container_specialisations_small p{
+        text-align: center;
+    }
+    .container_specialisations_small a{
+        text-align: center;
+        display: block;
+    }
+
     .companies_items{
         display: flex;
         justify-content: center;
+    }
+
+    .border_right{
+        margin-right: 10px;
+    }
+    .container_main_card_text_order_0{
+        order: 0;
+    }
+    .container_main_card_order_1{
+        order: 1;
+    }
+    .container_main_card_text_order_2{
+        order: 0;
+    }
+    .container_main_card_order_3{
+        order: 1;
+    }
+    .container_main_card_text_order_4{
+        order: 0;
+    }
+    .container_main_card_order_5{
+        order: 1;
+    }
+    .container_main_card_text_order_6{
+        order: 0;
+    }
+    .container_main_card_order_7{
+        order: 1;
     }
 }
 
@@ -271,6 +348,33 @@
     .container_main_card{
         width: 100%;
     }
+
+    .container_main_card_text_order_0{
+        order: 0;
+    }
+    .container_main_card_order_1{
+        order: 1;
+    }
+    .container_main_card_text_order_2{
+        order: 2;
+    }
+    .container_main_card_order_3{
+        order: 3;
+    }
+    .container_main_card_text_order_4{
+        order: 4;
+    }
+    .container_main_card_order_5{
+        order: 5;
+    }
+    .container_main_card_text_order_6{
+        order: 6;
+    }
+    .container_main_card_order_7{
+        order: 7;
+    }
+
+
 
     .container_main_card h2{
         max-width: 600px;
@@ -326,8 +430,6 @@
 
     .footer_link_lokation{
         display: flex;
-        flex-direction: column;
-        gap: 0;
         margin-top: 0;
     }
 
@@ -349,6 +451,50 @@
         margin: 47px auto 48px auto;
         text-align: center;
     }
+
+    .container_main_link{
+        display: block;
+        text-align: center;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footer_case_studies{
+        min-width: 100%;
+
+    }
+    .footer_case_studies h6{
+        text-align: center;
+    }
+    .cyclists{
+        display: block;
+        margin: 0 auto;
+    }
+    .footer_img_symbol_6{
+        display: block;
+        margin: 0 auto;
+    }
+    .footer_case_studies_text{
+        max-width: 760px;
+        text-align: center;
+    }
+    .footer_case_studies_link{
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .footer_link h3{
+        margin-top: 0;
+    }
+    .footer_link_lokation{
+        min-width: 100%;
+        justify-content: space-around;
+    }
 }
 
 @media screen and (max-width: 566px) {
@@ -359,8 +505,16 @@
         margin-right: 25px;
     }
 
+    .container_text_boost{
+        padding-top: 75px;
+    }
 
-     .specialisation_cards{
+    .container_main_card{
+        padding-right: 0;
+    }
+
+
+    .specialisation_cards{
         flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
@@ -374,12 +528,60 @@
     .specialisation_cards h3{
         text-align: center;
     }
+
+    .container_specialisations_small p{
+        text-align: center;
+        max-width: 566px;
+    }
+
+    .container_specialisations_small a{
+        text-align: center;
+        display: block;
+    }
+
+    .container_revolut_info{
+        flex-direction: column;
+    }
+
+    .banner_software_symbols_lokation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
     .container_revolut_img{
-        max-width: 120px;
+        max-width: 560px;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .container_icons h2{
+        padding-top: 75px;
+    }
+
+
+    .banner_software_items{
+        flex-direction: column;
     }
 
     .cake_img{
         max-width: 100px;
+        margin-bottom: 0;
+    }
+    .border_right{
+        border: 0;
+    }
+    .border_right h4{
+        margin-bottom: 10px;
+        text-align: right;
+        font-size: 1.25rem;
+        display: inline-block;
+    }
+
+    .border_right_lokation{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .border_right h4{
@@ -391,6 +593,44 @@
     }
 
     .cyclists{
-        max-width: 120px;
+        width: 100%;
     }
+
+    .container_main_card{
+        min-height: 0;
+    }
+
+    .banner_worktools_elements h5{
+        margin-top: 50px;
+    }
+
+    .banner_worktools_elements{
+        margin-bottom: 50px;
+    }
+    .specialisation_cards{
+        margin-bottom: 63px;
+    }
+
+    .container_icons h2{
+        padding-top: 63px;
+    }
+
+    h1{
+        margin-top: 63px;
+    }
+
+    .footer_link_lokation{
+        flex-direction: column;
+        max-width: 100%;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .footer_link h3{
+        text-align: center;
+
+    }
+    .footer_link ul{
+        text-align: center;
+    }
+
 }
